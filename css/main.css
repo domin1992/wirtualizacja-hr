@@ -1,3 +1,87 @@
 html, body{
     font-family: 'Roboto', sans-serif;
+    color: #212121;
+    font-size: 22px;
+}
+
+h1{ font-size: 48px; }
+h2{ font-size: 44px; }
+h3{ font-size: 38px; }
+h4{ font-size: 34px; }
+h5{ font-size: 28px; }
+h6{ font-size: 24px; }
+
+.section-title{
+    padding-bottom: 35px;
+}
+
+.section-title h2{
+    text-transform: uppercase;
+}
+
+.section-color-red{ background-color: #FFCDD2; }
+.section-color-pink{ background-color: #F8BBD0; }
+.section-color-purple{ background-color: #E1BEE7; }
+.section-color-deep-purple{ background-color: #D1C4E9; }
+.section-color-indigo{ background-color: #C5CAE9; }
+.section-color-blue{ background-color: #BBDEFB; }
+.section-color-light-blue{ background-color: #B3E5FC; }
+.section-color-cyan{ background-color: #B2EBF2; }
+.section-color-teal{ background-color: #B2DFDB; }
+.section-color-green{ background-color: #C8E6C9; }
+.section-color-light-green{ background-color: #DCEDC8; }
+.section-color-lime{ background-color: #F0F4C3; }
+.section-color-yellow{ background-color: #FFF9C4; }
+.section-color-amber{ background-color: #FFECB3; }
+.section-color-orange{ background-color: #FFE0B2; }
+
+.card{
+    cursor: pointer;
+    background-color: #FFF;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.card-content{
+    padding: 10px 15px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.card-cover{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+}
+
+.card-cover div{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.card-cover.card-cover-danger{
+    background-color: rgba(242, 222, 222, 0.5);
+}
+.card-cover.card-cover-success{
+    background-color: rgba(223, 240, 216, 0.5);
+}
+
+.card-cover div i{
+    font-size: 38px;
+    color: #FFF;
+}
+
+.card-cover.card-cover-danger div i{
+    color: #a94442;
+}
+.card-cover.card-cover-success div i{
+    color: #3c763d;
 }
