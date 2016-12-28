@@ -1,0 +1,23 @@
+{
+  "name": "wirtualizacja-hr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/domin1992/wirtualizacja-hr.git"
+  },
+  "author": "Dominik Nowak (http://dominiknowak.xyz | http://zencore.pl)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/domin1992/wirtualizacja-hr/issues"
+  },
+  "homepage": "https://github.com/domin1992/wirtualizacja-hr#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "fullpage.js": "^2.9.2"
+  }
+}
