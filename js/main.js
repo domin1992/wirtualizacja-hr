@@ -19,4 +19,8 @@ $(document).ready(function(){
             $(this).show();
         });
     });
+
+    $('#submit-form').click(function(){
+        $('#submit-form-msg').fadeIn();
+    });
 });
