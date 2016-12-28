@@ -85,3 +85,38 @@ h6{ font-size: 24px; }
 .card-cover.card-cover-success div i{
     color: #3c763d;
 }
+
+@media(max-width: 991px){
+    html, body{
+        font-size: 16px;
+    }
+
+    h1{ font-size: 28px; }
+    h2{ font-size: 26px; }
+    h3{ font-size: 24px; }
+    h4{ font-size: 22px; }
+    h5{ font-size: 20px; }
+    h6{ font-size: 18px; }
+
+    .section-title{
+        padding-bottom: 15px;
+    }
+
+    .image-wrapper{
+        margin-bottom: 15px;
+    }
+
+    .content-wrapper, .section-title{
+        text-align: center;
+    }
+
+    /*.content-wrapper.content-wrapper-list{
+        text-align: left;
+    }*/
+
+    .content-wrapper.content-wrapper-list ul{
+        display: inline-block;
+        margin: 0 auto;
+        text-align: left;
+    }
+}
